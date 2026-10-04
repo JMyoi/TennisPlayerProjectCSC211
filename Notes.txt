@@ -1,0 +1,24 @@
+While 99>=0
+Comparing mid: 49 to COLLINS
+Comparison made: RADUCANU to COLLINS not there its to the left
+While 48>=0
+Comparing mid: 24 to COLLINS
+Comparison made: ZHENG to COLLINS not there its to the left
+While 23>=0
+Comparing mid: 11 to COLLINS
+Comparison made: SAVILLE to COLLINS not there its to the left
+While 10>=0
+Comparing mid: 5 to COLLINS
+Comparison made: KUDERMETOVA to COLLINS not there its to the left
+While 4>=0
+Comparing mid: 2 to COLLINS
+Comparison made: GRACHEVA to COLLINS not there its to the left
+While 1>=0
+Comparing mid: 0 to COLLINS
+Comparison made: ALEXANDROVA to COLLINS not there its to the right
+While 1>=1
+Comparing mid: 1 to COLLINS
+Comparison made: AZARENKA to COLLINS not there its to the right
+NOT FOUND
+
+has to be sorted by alphabetical order
