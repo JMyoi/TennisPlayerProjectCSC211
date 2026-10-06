@@ -27,7 +27,6 @@ public:
 
     void print();
     
-    
     void updatePoints(int point){
         for(int i=0; i<numPlayers; ++i){
             players[i].addpoints(point);

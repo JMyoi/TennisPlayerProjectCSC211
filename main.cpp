@@ -31,11 +31,12 @@ int main(int argc, char* argv[]) {
     
     sizeVec = TennisPlayerVector.size();
    
-    
-    vector<TennisPlayer> sortedTennisPlayerVector;
-    for(int i = 0; i<sizeVec; ++i){
-        sortedTennisPlayerVector.push_back(TennisPlayerVector.at(i));
-    }
+    //can we not just set sortedTennisPlayerVector = TennisplayerVector or do we need to overload the assignment operator?
+    vector<TennisPlayer> sortedTennisPlayerVector = TennisPlayerVector;
+    // for(int i = 0; i<sizeVec; ++i){
+    //     sortedTennisPlayerVector.push_back(TennisPlayerVector.at(i));
+    // }
+
     SelectionSort(sortedTennisPlayerVector, sizeVec);
     
     int input=1;
@@ -157,7 +158,7 @@ void SelectionSort(vector<theType>& Vector, int numbersSize) {
         indexSmall = i;
         
         for(int j = i+1; j<numbersSize; ++j){
-            if(Vector.at(j).getCountry()<Vector.at(indexSmall).getCountry()){
+            if(Vector.at(j).getCountry() < Vector.at(indexSmall).getCountry()){
                 indexSmall = j;
             }
         }
